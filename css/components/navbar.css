@@ -1,0 +1,66 @@
+.principal {
+  width: 85%;
+}
+
+.navbar {
+  background-color: rgb(250,250,250);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(220,220,220);
+  border-left: 2px solid rgb(220,220,220);
+  font-size: 12px;
+}
+
+.search-bar {
+  padding-left: 12px;
+}
+
+.search-bar .fas {
+  padding-right: 12px;
+}
+
+.infobar {
+  display: flex;
+}
+
+.notifications {
+  display: flex;
+  /*border-left: 1px solid rgb(220,220,220);*/
+  border-right: 1px solid rgb(220,220,220);
+}
+
+.notifications p {
+  align-self: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  }
+
+.notifications img {
+  height: 24px;
+  width: 36px;
+  align-self: center;
+}
+
+.user {
+  display: flex;
+  padding-left: 12px;
+  padding-right: 12px;
+  align-items: center;
+}
+
+.user img {
+  height: 32px;
+}
+
+.user h1 {
+  padding-left: 12px;
+  margin: 0;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.user p {
+  padding-left: 12px;
+  font-size: 10px;
+  margin: 0;
+}

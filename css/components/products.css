@@ -1,0 +1,90 @@
+.base {
+  margin: 0 auto;
+  border-left: 2px solid rgb(220,220,220);
+  background-color: rgb(250,250,250);
+}
+
+.basetitle {
+  margin: 0;
+  padding: 1px 24px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 24px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 0 auto;
+  border: 10px solid white;
+  background-color: white;
+  padding-bottom: 0;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.card .fa-heart {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  opacity: 0;
+}
+
+.card:hover .fa-heart {
+  color: white;
+  opacity: 1;
+}
+
+.title {
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+.text h1 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.text h2 {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.text p {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.text h1, .text h2, .text p {
+  margin: 0;
+  padding: 0;
+}
+
+.price p {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 12px 0;
+  color: #4CAFEA;
+}
+
+.addtocart {
+  margin: 0 auto;
+  border-top: 4px solid rgb(250,250,250);
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.addtocart:hover {
+  color: rgb(20,20,20);
+}
+

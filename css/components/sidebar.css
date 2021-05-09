@@ -1,0 +1,51 @@
+.sidebar {
+  padding: 24px;
+  background-color: rgb(240,240,240);
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  font-size: 8px;
+  width: 30px;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.red { color: red; }
+.orange { color: orange; }
+.green { color: green; }
+
+.options {
+  padding-top: 56px;
+  flex-grow: 4;
+}
+
+.options p, .logout p {
+  margin: 0 0;
+  padding: 12px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.options p:hover, .logout p:hover {
+  color: #4CAFEA;
+  background-color: rgba(167,237,255,0.3);
+  border-left: 4px solid #4CAFEA;
+}
+
+.options .fas, .options .far {
+  padding-right: 16px;
+}
+
+.options .fa-chevron-right {
+  padding-left: 16px;
+}
+
+.logout .fas {
+  padding-right: 16px;
+  padding-bottom: 64px;
+}

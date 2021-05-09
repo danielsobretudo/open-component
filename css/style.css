@@ -1,0 +1,26 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+@import url("components/sidebar.css");
+@import url("components/navbar.css");
+@import url("components/products.css");
+
+body {
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-color: rgb(220,220,220);
+  color: rgb(100,100,100);
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: whitesmoke;
+  display: flex;
+}
+
